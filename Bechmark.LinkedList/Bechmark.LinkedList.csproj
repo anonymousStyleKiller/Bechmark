@@ -10,6 +10,7 @@
     <ItemGroup>
       <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
       <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.1" />
+      <PackageReference Include="RawScape.Wintellect.PowerCollections" Version="1.0.1" />
     </ItemGroup>
 
 </Project>

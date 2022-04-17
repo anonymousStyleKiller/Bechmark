@@ -3,8 +3,8 @@ using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Diagnosers;
 using BenchmarkDotNet.Running;
 
-BenchmarkRunner.Run<EnumerateBenchmark>(DefaultConfig.Instance
-                                            .AddHardwareCounters(HardwareCounter.CacheMisses, HardwareCounter.BranchMispredictions, HardwareCounter.LlcMisses));
+// BenchmarkRunner.Run<EnumerateBenchmark>(DefaultConfig.Instance
+//                                             .AddHardwareCounters(HardwareCounter.CacheMisses, HardwareCounter.BranchMispredictions, HardwareCounter.LlcMisses));
 
 
 [MemoryDiagnoser]
@@ -21,7 +21,7 @@ public class EnumerateBenchmark
 
     [Benchmark(Baseline = true)]
     public long ListSum() => _list.Sum();
-    
+
     [Benchmark]
     public long LinkedListSum() => _linkedList.Sum();
 

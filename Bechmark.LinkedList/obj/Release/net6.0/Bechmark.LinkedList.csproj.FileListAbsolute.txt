@@ -69,3 +69,4 @@ C:\Projects\Tests\Bechmark\Bechmark.LinkedList\obj\Release\net6.0\ref\Bechmark.L
 C:\Projects\Tests\Bechmark\Bechmark.LinkedList\obj\Release\net6.0\Bechmark.LinkedList.pdb
 C:\Projects\Tests\Bechmark\Bechmark.LinkedList\obj\Release\net6.0\Bechmark.LinkedList.genruntimeconfig.cache
 C:\Projects\Tests\Bechmark\Bechmark.LinkedList\bin\Release\net6.0\BenchmarkDotNet.Diagnostics.Windows.dll
+C:\Projects\Tests\Bechmark\Bechmark.LinkedList\bin\Release\net6.0\Wintellect.PowerCollections.dll

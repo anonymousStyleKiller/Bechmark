@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lMamKqBbabu0bLCAve6c0BvMYcBWi9dEcgfqH3UBk4LxSP1hQFbmsI+aX41QtLS7caGi3xtHiWZtHqVQ2YzcSw==",
+  "dgSpecHash": "1c3pg5OkdTYIYBjZWgOeGnvWxQa0sdTVY3QYYGxzdOYCk71BaGJOwGKn5amZaU2XUmNOfhCj7hcATeMj7/Uglw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\Bechmark\\Bechmark.LinkedList\\Bechmark.LinkedList.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\perfolizer\\0.2.1\\perfolizer.0.2.1.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\rawscape.wintellect.powercollections\\1.0.1\\rawscape.wintellect.powercollections.1.0.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

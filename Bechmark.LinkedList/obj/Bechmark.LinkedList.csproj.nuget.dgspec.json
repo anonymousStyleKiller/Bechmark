@@ -52,6 +52,10 @@
             "BenchmarkDotNet.Diagnostics.Windows": {
               "target": "Package",
               "version": "[0.13.1, )"
+            },
+            "RawScape.Wintellect.PowerCollections": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

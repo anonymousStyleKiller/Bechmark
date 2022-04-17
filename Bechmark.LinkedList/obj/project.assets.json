@@ -329,6 +329,15 @@
           "lib/netstandard2.0/Perfolizer.dll": {}
         }
       },
+      "RawScape.Wintellect.PowerCollections/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Wintellect.PowerCollections.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Wintellect.PowerCollections.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -1918,6 +1927,18 @@
         "lib/netstandard2.0/Perfolizer.dll",
         "perfolizer.0.2.1.nupkg.sha512",
         "perfolizer.nuspec"
+      ]
+    },
+    "RawScape.Wintellect.PowerCollections/1.0.1": {
+      "sha512": "yjG7rt69LcmCSR4V6rG06H864DZ+xDNxifhjyvoHrcOC0bYLBAuqftRZVyS0eZl35RQ9uxkZk+NkjjgkalUmJg==",
+      "type": "package",
+      "path": "rawscape.wintellect.powercollections/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Wintellect.PowerCollections.dll",
+        "rawscape.wintellect.powercollections.1.0.1.nupkg.sha512",
+        "rawscape.wintellect.powercollections.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -5440,7 +5461,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BenchmarkDotNet >= 0.13.1",
-      "BenchmarkDotNet.Diagnostics.Windows >= 0.13.1"
+      "BenchmarkDotNet.Diagnostics.Windows >= 0.13.1",
+      "RawScape.Wintellect.PowerCollections >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -5496,6 +5518,10 @@
           "BenchmarkDotNet.Diagnostics.Windows": {
             "target": "Package",
             "version": "[0.13.1, )"
+          },
+          "RawScape.Wintellect.PowerCollections": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [

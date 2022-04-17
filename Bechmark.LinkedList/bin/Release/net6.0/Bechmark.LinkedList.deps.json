@@ -9,7 +9,8 @@
       "Bechmark.LinkedList/1.0.0": {
         "dependencies": {
           "BenchmarkDotNet": "0.13.1",
-          "BenchmarkDotNet.Diagnostics.Windows": "0.13.1"
+          "BenchmarkDotNet.Diagnostics.Windows": "0.13.1",
+          "RawScape.Wintellect.PowerCollections": "1.0.1"
         },
         "runtime": {
           "Bechmark.LinkedList.dll": {}
@@ -297,6 +298,14 @@
           "lib/netstandard2.0/Perfolizer.dll": {
             "assemblyVersion": "0.2.1.0",
             "fileVersion": "0.2.1.0"
+          }
+        }
+      },
+      "RawScape.Wintellect.PowerCollections/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/Wintellect.PowerCollections.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1092,6 +1101,13 @@
       "sha512": "sha512-Dt4aCxCT8NPtWBKA8k+FsN/RezOQ2C6omNGm5o/qmYRiIwlQYF93UgFmeF1ezVNsztTnkg7P5P63AE+uNkLfrw==",
       "path": "perfolizer/0.2.1",
       "hashPath": "perfolizer.0.2.1.nupkg.sha512"
+    },
+    "RawScape.Wintellect.PowerCollections/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yjG7rt69LcmCSR4V6rG06H864DZ+xDNxifhjyvoHrcOC0bYLBAuqftRZVyS0eZl35RQ9uxkZk+NkjjgkalUmJg==",
+      "path": "rawscape.wintellect.powercollections/1.0.1",
+      "hashPath": "rawscape.wintellect.powercollections.1.0.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
