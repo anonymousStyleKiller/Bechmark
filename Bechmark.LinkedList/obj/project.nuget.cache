@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bvIYPxApmYxm8lbQt4T6JLO7ric2HhHHE7C1kinuIfSejNbVo6YkZrY8vgCQusXlunSKG6EWP/QNoIujS3mErw==",
+  "dgSpecHash": "lMamKqBbabu0bLCAve6c0BvMYcBWi9dEcgfqH3UBk4LxSP1hQFbmsI+aX41QtLS7caGi3xtHiWZtHqVQ2YzcSw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\Tests\\Bechmark\\Bechmark.LinkedList\\Bechmark.LinkedList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\benchmarkdotnet\\0.13.1\\benchmarkdotnet.0.13.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.1\\benchmarkdotnet.annotations.0.13.1.nupkg.sha512",
+    "C:\\Users\\anton.kharchenko\\.nuget\\packages\\benchmarkdotnet.diagnostics.windows\\0.13.1\\benchmarkdotnet.diagnostics.windows.0.13.1.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\commandlineparser\\2.4.3\\commandlineparser.2.4.3.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\iced\\1.8.0\\iced.1.8.0.nupkg.sha512",
     "C:\\Users\\anton.kharchenko\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.6.1\\microsoft.codeanalysis.analyzers.2.6.1.nupkg.sha512",

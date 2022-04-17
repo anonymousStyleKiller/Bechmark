@@ -48,6 +48,10 @@
             "BenchmarkDotNet": {
               "target": "Package",
               "version": "[0.13.1, )"
+            },
+            "BenchmarkDotNet.Diagnostics.Windows": {
+              "target": "Package",
+              "version": "[0.13.1, )"
             }
           },
           "imports": [

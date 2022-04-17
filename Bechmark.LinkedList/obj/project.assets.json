@@ -37,6 +37,19 @@
           "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll": {}
         }
       },
+      "BenchmarkDotNet.Diagnostics.Windows/0.13.1": {
+        "type": "package",
+        "dependencies": {
+          "BenchmarkDotNet": "0.13.1",
+          "Microsoft.Diagnostics.Tracing.TraceEvent": "2.0.61"
+        },
+        "compile": {
+          "lib/netstandard2.0/BenchmarkDotNet.Diagnostics.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BenchmarkDotNet.Diagnostics.Windows.dll": {}
+        }
+      },
       "CommandLineParser/2.4.3": {
         "type": "package",
         "compile": {
@@ -1610,6 +1623,19 @@
         "lib/netstandard1.0/BenchmarkDotNet.Annotations.xml",
         "lib/netstandard2.0/BenchmarkDotNet.Annotations.dll",
         "lib/netstandard2.0/BenchmarkDotNet.Annotations.xml"
+      ]
+    },
+    "BenchmarkDotNet.Diagnostics.Windows/0.13.1": {
+      "sha512": "ThIfoydiEB04NJ5RVrbp0U1YCtKuB3ThUHKpfTG0JDQ+C5SKqrEsdTDnbG962MEsJxdFFPJfTkj0Z/piq6a9Nw==",
+      "type": "package",
+      "path": "benchmarkdotnet.diagnostics.windows/0.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "benchmarkdotnet.diagnostics.windows.0.13.1.nupkg.sha512",
+        "benchmarkdotnet.diagnostics.windows.nuspec",
+        "lib/netstandard2.0/BenchmarkDotNet.Diagnostics.Windows.dll",
+        "lib/netstandard2.0/BenchmarkDotNet.Diagnostics.Windows.xml"
       ]
     },
     "CommandLineParser/2.4.3": {
@@ -5413,7 +5439,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BenchmarkDotNet >= 0.13.1"
+      "BenchmarkDotNet >= 0.13.1",
+      "BenchmarkDotNet.Diagnostics.Windows >= 0.13.1"
     ]
   },
   "packageFolders": {
@@ -5463,6 +5490,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "BenchmarkDotNet": {
+            "target": "Package",
+            "version": "[0.13.1, )"
+          },
+          "BenchmarkDotNet.Diagnostics.Windows": {
             "target": "Package",
             "version": "[0.13.1, )"
           }

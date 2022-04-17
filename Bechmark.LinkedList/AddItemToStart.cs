@@ -1,6 +1,9 @@
 ﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Diagnosers;
+using BenchmarkDotNet.Running;
 
-
+// BenchmarkRunner.Run<AddItemToStart>();
+    
 [MemoryDiagnoser]
 public class AddItemToStart
 {
